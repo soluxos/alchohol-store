@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brewery</title>
+  <link href="dist/styles/styles.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="header">
+		<a href="/"> Drinkshop </a>
+	</div>
+
+	<div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1511055712900-e55b38f1910e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bb292a1794ab076eccb51b8e5099636c&auto=format&fit=crop&w=1920&q=80');">
+
+		<div class="hero-content">
+			<h1>
+				Need a drink?
+			</h1>
+			<p>
+				Grab a drink for your next night out.
+			</p>
+		</div>
+
+	</div>
+	<div class="wrapper">
+		<div class="sort-bar">
+			<h3 class="item-count"> 24 items </h3>
+			<a class="filter-button" href="#">Sort<i class="fa fa-angle-down"></i></a>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="side-bar">
+
+			<a class="filter-button" href="#">Filter<i class="fa fa-angle-down"></i></a>
+
+			<div class="filter-box">
+				<h3> Alchohol Percentage </h3>
+				<input type="checkbox" name="filter-option1" value="5">5%<br>
+				<input type="checkbox" name="filter-option1" value="6">6%<br>
+				<input type="checkbox" name="filter-option1" value="7">7%<br>
+			</div>
+
+			<div class="filter-box">
+				<h3> Size </h3>
+				<input type="checkbox" name="filter-option1" value="330ml">330ml<br>
+				<input type="checkbox" name="filter-option1" value="500ml">500ml<br>
+				<input type="checkbox" name="filter-option1" value="1l">1l<br>
+				<input type="checkbox" name="filter-option1" value="1.5l">1.5l<br>
+			</div>
+
+			<div class="filter-box">
+				<h3> Rating </h3>
+				<input type="checkbox" name="filter-option1" value="5">5*<br>
+				<input type="checkbox" name="filter-option1" value="4">4*<br>
+				<input type="checkbox" name="filter-option1" value="3">3*<br>
+				<input type="checkbox" name="filter-option1" value="2">2*<br>
+				<input type="checkbox" name="filter-option1" value="1">1*<br>
+			</div>
+
+		</div>
+  		<div id="root"></div>
+  	</div>
+
+  	<script src="scripts.js"></script>
+</body>
+</html>
