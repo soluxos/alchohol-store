@@ -25,11 +25,6 @@ request.onload = function () {
   	if (request.status >= 200 && request.status < 400) {
    		jsonObject.slice(0, 9).forEach(products => {
 
-   			// Check if the beer title is empty or product is out of stock and remove from product list.
-   			if ( products.beer == '' || products.quantity_in_stock == '0' || products.image_url == '' ) {
-   				return;	
-   			}
-
    			// Create Div and set to Card
 	     	var card = document.createElement('div');
 	      	card.setAttribute('class', 'card');
